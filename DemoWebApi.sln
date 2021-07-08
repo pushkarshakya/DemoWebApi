@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebApi", "DemoWebApi\DemoWebApi.csproj", "{78E1B308-25EF-4ADB-B40F-2BBC5780E495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebApi.Tests", "DemoWebApi.Tests\DemoWebApi.Tests.csproj", "{8221889F-19DC-42BC-938D-BA2C1A0FE273}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySQLScript", "MySQLScript", "{D3EEAC6F-04AE-4C1A-AFEB-E80134D903AE}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseScript.sql = DatabaseScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E1B308-25EF-4ADB-B40F-2BBC5780E495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E1B308-25EF-4ADB-B40F-2BBC5780E495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E1B308-25EF-4ADB-B40F-2BBC5780E495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E1B308-25EF-4ADB-B40F-2BBC5780E495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8221889F-19DC-42BC-938D-BA2C1A0FE273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8221889F-19DC-42BC-938D-BA2C1A0FE273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8221889F-19DC-42BC-938D-BA2C1A0FE273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8221889F-19DC-42BC-938D-BA2C1A0FE273}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38A021CF-8FE6-4B1E-859D-C341D8C28E80}
+	EndGlobalSection
+EndGlobal
