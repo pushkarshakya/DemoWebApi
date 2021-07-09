@@ -20,7 +20,7 @@ namespace DemoWebApi.Controllers
         public async Task<ActionResult<List<ObjectType>>> GetAll()
         {
             var result = await _objectTypeRepository.GetAllAsync();
-            return result != null ? Ok(result) : NotFound();
+            return result != null ? Ok(result) : Ok(new List<ObjectType>());
         }
 
         [HttpGet("{objectTypeId}")]
